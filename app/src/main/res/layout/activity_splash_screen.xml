@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/navButton1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="100dp"
+        android:background="@color/purple_500"
+        android:onClick="MainActivity"
+        android:padding="5dp"
+        android:text="Counter"
+        android:textColorHint="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/navButton2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/navButton1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/purple_500"
+        android:onClick="StopWatch"
+        android:padding="5dp"
+        android:text="Stopwatch"
+        android:textColorHint="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/navButton3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/navButton2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/purple_500"
+        android:onClick="Timer"
+        android:padding="5dp"
+        android:text="Timer"
+        android:textColorHint="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
